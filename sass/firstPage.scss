@@ -1,0 +1,139 @@
+//Colors
+$default-blue-color: #1a77cd;
+$background-color: white;
+$default-color: #1e1e1e;
+$contact-background: #11284B;
+
+//Navigation
+
+header {
+    background-color: $background-color;
+}
+
+.navbar {
+    .navbar-toggler {
+        span {
+            display: block;
+            background-color: $default-blue-color;
+            width: 30px;
+            height: 3px;
+            margin-bottom: 5px;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .nav-item {
+        .nav-link {
+            color: $default-color;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: normal;
+            font-weight: 500;
+        }
+        .active {
+            color: $default-blue-color !important;
+        }
+    }
+}
+
+//Welcome to Lawyer
+
+.text-item {
+    h1 {
+        font-size: 50px;
+        line-height: 64px;
+    }
+    p {
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 320px) {
+    .text-item {
+        padding: 50px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .welcome-to-lawyer {
+        img {
+            margin-left: 15px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .welcome-to-lawyer {
+        img {
+            margin-left: 45px;
+        }
+        .text-item {
+            padding: 120px 0;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+// Services
+
+.services {
+    padding: 77px 0 80px;
+
+    h2 {
+        margin-bottom: 75px;
+    }
+}
+
+//Trust the professionals
+
+.team {
+    padding: 64px 0 61px;
+    background-color: #f6f5f6;
+
+    p {
+        color: #1a77cd;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .carousel-items {
+        .carousel-item-title {
+            color: $default-blue-color;
+            line-height: 27px;
+            font-size: 22px;
+        }
+        .carousel-item-paragraph {
+            color: $default-color;
+            line-height: 25px;
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 64px !important;
+        }
+        .fa-linkedin-in {
+            color: #586C88 !important;
+            font-size: 30px;
+        }
+    }
+}
+
+//Contact section
+
+.contact-section {
+    padding: 75px 0 69px;
+    background-color: $contact-background;
+
+    h2 {
+        color: $default-blue-color;
+        line-height: 64px;
+        font-size: 36px;
+        font-weight: 500;
+    }
+}
+

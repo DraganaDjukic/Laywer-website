@@ -1,0 +1,35 @@
+
+//Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@300;400;500&display=swap');
+
+$rubik-font: 'Rubik', sans-serif;
+$rubik-light: 300;
+$rubik-regular: 400;
+$rubik-medium: 500;
+
+$poppins-font: 'Poppins', sans-serif;
+
+//Colors
+
+$default-color: #1E1E1E;
+$default-blue-color: #1a77cd;
+$dark-blue: #11284B;
+
+//Default values
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: $rubik-font;
+    color: $default-color;
+}
+.container {
+    max-width: 1140px;
+}
+
+h2 {
+    font-size: 36px;
+}

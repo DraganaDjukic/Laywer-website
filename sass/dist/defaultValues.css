@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@300;400;500&display=swap");
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #1E1E1E;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+/*# sourceMappingURL=defaultValues.css.map */
