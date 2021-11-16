@@ -310,4 +310,16 @@ footer .social-icons a:hover {
   }
 }
 
+@media (min-width: 320px) {
+  .bankingAndFinance {
+    padding: 50px 0 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bankingAndFinance {
+    padding: 60px 0 85px;
+  }
+}
+
 /*# sourceMappingURL=finalVersion.css.map */
