@@ -199,19 +199,48 @@ header {
 }
 
 .team .carousel-items .fa-linkedin-in {
-  color: #586C88 !important;
+  color: #586c88 !important;
   font-size: 30px;
 }
 
 .contact-section {
   padding: 75px 0 69px;
-  background-color: #11284B;
+  background-color: #11284b;
 }
 
 .contact-section h2 {
   color: #1a77cd;
   line-height: 64px;
   font-size: 36px;
+  font-weight: 500;
+}
+
+.contact-section p,
+.contact-section a {
+  color: #586c88 !important;
+}
+
+footer {
+  padding: 15px 0 25px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #586c88;
+  letter-spacing: -0.17px;
+  line-height: 41px;
+  font-weight: 500;
+}
+
+footer .social-icons a {
+  color: #2c2d3c;
+  width: 23px;
+  transition: 1s linear;
+  text-decoration: none;
+}
+
+footer .social-icons a:hover {
+  transform: rotate(360deg);
 }
 
 /*# sourceMappingURL=finalVersion.css.map */

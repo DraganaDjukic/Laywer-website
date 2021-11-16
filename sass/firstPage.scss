@@ -2,7 +2,7 @@
 $default-blue-color: #1a77cd;
 $background-color: white;
 $default-color: #1e1e1e;
-$contact-background: #11284B;
+$contact-background: #11284b;
 
 //Navigation
 
@@ -117,7 +117,7 @@ header {
             margin-bottom: 64px !important;
         }
         .fa-linkedin-in {
-            color: #586C88 !important;
+            color: #586c88 !important;
             font-size: 30px;
         }
     }
@@ -135,5 +135,35 @@ header {
         font-size: 36px;
         font-weight: 500;
     }
+    p,
+    a {
+        color: #586c88 !important;
+    }
 }
 
+//Footer
+
+footer {
+    padding: 15px 0 25px;
+
+    p {
+        font-size: 12px;
+        color: #586c88;
+        letter-spacing: -0.17px;
+        line-height: 41px;
+        font-weight: 500;
+    }
+
+    .social-icons {
+        a {
+            color: #2c2d3c;
+            width: 23px;
+            transition: 1s linear;
+            text-decoration: none;
+
+            &:hover {
+                transform: rotate(360deg);
+            }
+        }
+    }
+}
