@@ -140,7 +140,10 @@ header {
 
 @media (min-width: 320px) {
   .text-item {
-    padding: 50px 0;
+    padding: 30px 0;
+  }
+  .text-item h1 {
+    font-size: 40px;
   }
 }
 
@@ -241,6 +244,22 @@ footer .social-icons a {
 
 footer .social-icons a:hover {
   transform: rotate(360deg);
+}
+
+@media (min-width: 320px) {
+  .our-vision {
+    padding: 40px 0 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .our-vision {
+    padding: 104px 0 133px;
+  }
+  .our-vision .vision {
+    position: relative;
+    right: 42px;
+  }
 }
 
 /*# sourceMappingURL=finalVersion.css.map */
