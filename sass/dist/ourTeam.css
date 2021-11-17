@@ -35,18 +35,52 @@
 }
 
 .meet-our-team h4 {
-  color: #1E1E1E;
+  color: #1e1e1e;
   letter-spacing: normal;
   line-height: 27px;
   font-size: 22px;
 }
 
 .meet-our-team p {
-  color: #1A77CD;
+  color: #1a77cd;
   letter-spacing: normal;
   line-height: 27px;
   font-size: 18px;
   font-weight: 500;
+}
+
+.team-member-first .header h1 {
+  color: #1e1e1e;
+  letter-spacing: normal;
+  line-height: 64px;
+  font-size: 40px;
+}
+
+.team-member-first .header p {
+  color: #1a77cd;
+  letter-spacing: normal;
+  line-height: 27px;
+  font-size: 18px;
+}
+
+.team-member-first .paragraph p {
+  color: #1e1e1e;
+  letter-spacing: normal;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (min-width: 320px) {
+  .team-member-first {
+    padding: 30px 0 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .team-member-first {
+    padding: 50px 0 130px;
+  }
 }
 
 /*# sourceMappingURL=ourTeam.css.map */
