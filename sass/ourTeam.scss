@@ -1,0 +1,54 @@
+//Meet our Team
+
+@media (min-width: 320px) {
+    .meet-our-team {
+        padding: 30px 0 80px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .meet-our-team {
+        padding: 50px 0 100px;
+    }
+}
+
+.meet-our-team {
+    .team-member {
+        position: relative;
+
+        .fa-linkedin-in {
+            position: absolute;
+            bottom: 16px;
+            right: 15px;
+            color: white;
+            font-size: 30px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        img {
+            transition: 0.5s linear;
+
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+    }
+    h4 {
+     color: #1E1E1E;
+     letter-spacing: normal;
+     line-height: 27px;
+     font-size: 22px;
+    }
+
+    p {
+        color: #1A77CD;
+        letter-spacing: normal;
+        line-height: 27px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

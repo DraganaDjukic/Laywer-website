@@ -322,4 +322,55 @@ footer .social-icons a:hover {
   }
 }
 
+@media (min-width: 320px) {
+  .meet-our-team {
+    padding: 30px 0 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .meet-our-team {
+    padding: 50px 0 100px;
+  }
+}
+
+.meet-our-team .team-member {
+  position: relative;
+}
+
+.meet-our-team .team-member .fa-linkedin-in {
+  position: absolute;
+  bottom: 16px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+}
+
+.meet-our-team .team-member .fa-linkedin-in:hover {
+  text-decoration: none;
+}
+
+.meet-our-team .team-member img {
+  transition: 0.5s linear;
+}
+
+.meet-our-team .team-member img:hover {
+  transform: scale(1.03);
+}
+
+.meet-our-team h4 {
+  color: #1E1E1E;
+  letter-spacing: normal;
+  line-height: 27px;
+  font-size: 22px;
+}
+
+.meet-our-team p {
+  color: #1A77CD;
+  letter-spacing: normal;
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=finalVersion.css.map */
