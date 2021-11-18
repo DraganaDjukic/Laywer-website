@@ -12,6 +12,7 @@
 
 .meet-our-team .team-member {
   position: relative;
+  overflow: hidden;
 }
 
 .meet-our-team .team-member .fa-linkedin-in {
