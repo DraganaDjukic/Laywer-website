@@ -535,4 +535,43 @@ footer .social-icons a:hover {
   transform: scale(1.05);
 }
 
+.contact-section-page .contact-section-items p,
+.contact-section-page .contact-section-items a {
+  color: #586c88 !important;
+  line-height: 25px !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
+.contact-section-page .contact-section-items p span,
+.contact-section-page .contact-section-items a span {
+  color: #1a77cd;
+  margin-right: 15px;
+}
+
+.form-section .form-group .error-msg * {
+  text-align: left !important;
+  color: red !important;
+  font-size: 12px !important;
+  display: inline-block !important;
+}
+
+.form-section .form-group .form-control {
+  display: inline-block;
+  width: 60%;
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+}
+
+.form-section .form-group ::placeholder {
+  color: rgba(88, 108, 136, 0.8) !important;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .form-control {
+    width: 45%;
+  }
+}
+
 /*# sourceMappingURL=finalVersion.css.map */
