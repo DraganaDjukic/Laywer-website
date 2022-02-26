@@ -1,27 +1,20 @@
 //Colors
-
 $dark-background: #11284b;
 $h2-color: #1a77cd;
 //Services
-
 .services-dark {
-
     background-color: $dark-background;
-
     h2 {
         color: #1a77cd;
         text-align: center;
         letter-spacing: normal;
         line-height: 64px;
         font-size: 36px;
-        margin-bottom: 45px;
     }
-
     span {
         letter-spacing: 1.14px;
         line-height: 22px;
     }
-
     p {
         color: #f5f5f5;
         line-height: 25px;
@@ -30,10 +23,8 @@ $h2-color: #1a77cd;
         height: 3 * 25px;
         overflow: hidden;
     }
-
     a {
         color: #1A77CD;
-
         &:hover {
             text-decoration: none;
             color: lighten(#1A77CD, 20%);
@@ -54,21 +45,14 @@ $h2-color: #1a77cd;
 }
 
 //Banking and Finance page
-
-@media(min-width: 320px){
-
-  .bankingAndFinance {
-      padding: 50px 0 80px;
-  }  
-
+@media(min-width: 320px) {
+    .bankingAndFinance {
+        padding: 50px 0 80px;
+    }
 }
 
-@media(min-width: 992px){
-
+@media(min-width: 992px) {
     .bankingAndFinance {
         padding: 60px 0 85px;
-    }  
-  
-  }
-  
-
+    }
+}

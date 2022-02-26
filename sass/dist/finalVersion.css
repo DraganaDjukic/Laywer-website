@@ -272,7 +272,6 @@ footer .social-icons a:hover {
   letter-spacing: normal;
   line-height: 64px;
   font-size: 36px;
-  margin-bottom: 45px;
 }
 
 .services-dark span {
@@ -367,7 +366,7 @@ footer .social-icons a:hover {
 }
 
 .meet-our-team p {
-  color: #1a77cd;
+  color: #1e1e1e !important;
   letter-spacing: normal;
   line-height: 27px;
   font-size: 18px;
@@ -382,7 +381,7 @@ footer .social-icons a:hover {
 }
 
 .team-member-first .header p {
-  color: #1a77cd;
+  color: #1e1e1e;
   letter-spacing: normal;
   line-height: 27px;
   font-size: 18px;

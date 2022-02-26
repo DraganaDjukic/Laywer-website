@@ -43,7 +43,7 @@
 }
 
 .meet-our-team p {
-  color: #1a77cd;
+  color: #1e1e1e !important;
   letter-spacing: normal;
   line-height: 27px;
   font-size: 18px;
@@ -58,7 +58,7 @@
 }
 
 .team-member-first .header p {
-  color: #1a77cd;
+  color: #1e1e1e;
   letter-spacing: normal;
   line-height: 27px;
   font-size: 18px;

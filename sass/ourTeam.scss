@@ -1,5 +1,4 @@
 //Meet our Team
-
 @media (min-width: 320px) {
     .meet-our-team {
         padding: 30px 0 80px;
@@ -16,22 +15,18 @@
     .team-member {
         position: relative;
         overflow: hidden;
-
         .fa-linkedin-in {
             position: absolute;
             bottom: 16px;
             right: 15px;
             color: white;
             font-size: 30px;
-
             &:hover {
                 text-decoration: none;
             }
         }
-
         img {
             transition: 0.5s linear;
-
             &:hover {
                 transform: scale(1.03);
             }
@@ -43,9 +38,8 @@
         line-height: 27px;
         font-size: 22px;
     }
-
     p {
-        color: #1a77cd;
+        color: #1e1e1e !important;
         letter-spacing: normal;
         line-height: 27px;
         font-size: 18px;
@@ -54,7 +48,6 @@
 }
 
 //Team Member page
-
 .team-member-first {
     .header {
         h1 {
@@ -63,9 +56,8 @@
             line-height: 64px;
             font-size: 40px;
         }
-
         p {
-            color: #1a77cd;
+            color: #1e1e1e;
             letter-spacing: normal;
             line-height: 27px;
             font-size: 18px;
@@ -93,4 +85,3 @@
         padding: 50px 0 130px;
     }
 }
-
